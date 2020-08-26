@@ -6,6 +6,12 @@ let array = [1, 2, 3, 4]
 
 console.log(myFunctionA(array))
 
+function firstElement(arr) {
+    return arr[0]
+}
+
+module.exports.functionOneKey = firstElement
+
 function myFunctionB(arr) {
     arr.pop()
     return arr
@@ -84,7 +90,7 @@ function myFunctionJ(string) {
     return uppercaseFirstLetter + stringWithoutFirstLetter
 }
 
-const text = 'the cat sleeps'
+const text = 'the cat is sleeping'
 
 console.log(myFunctionJ(text))
 

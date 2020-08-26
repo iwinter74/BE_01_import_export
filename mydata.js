@@ -17,3 +17,7 @@ module.exports.cKey = c
 module.exports.dKey = d
 module.exports.eKey = e
 module.exports.stringKey = string
+
+const numbersArray = [12, 4545, 6, 77, 88]
+
+module.exports.numbersArrayKey = numbersArray

@@ -1,4 +1,4 @@
-const { array1Key } = require("./mydata")
+
 
 function bigCities(arr) {
     var bigCities = arr.filter(elt => elt.population > 100000)
@@ -14,4 +14,6 @@ function smallCities(arr) {
 
 module.exports.bigCitiesKey = bigCities
 module.exports.smallCitiesKey = smallCities
+
+
 
